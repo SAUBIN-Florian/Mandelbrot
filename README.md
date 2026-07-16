@@ -49,7 +49,9 @@ or
 
 ```bash
 g++ main.cpp -o mandelbrot \
-    -lsfml-graphics
+    -lsfml-graphics \
+    -lsfml-system \
+    -lsfml-window
 ```
 
 ## Controls
